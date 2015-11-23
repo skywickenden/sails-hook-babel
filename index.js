@@ -16,7 +16,7 @@ module.exports = function(sails) {
         // Turn babel compile on by default
         compile: true,
         // Activates preset tranformations
-        presets: ['es2015'],
+        presets: ['es2015', 'react'],
         //can be false or a regex. Defaults to node_modules in babel
         ignore: null,
         //can be any regex. Only these files will be transpiled
